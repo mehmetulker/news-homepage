@@ -120,9 +120,14 @@
   h6 {
     text-wrap: balance;
   }
+
   ol,
   ul {
     list-style: none;
-    padding-left: 0;
+    padding-left: 0px;
+  }
+  a {
+    text-decoration: none;
+    color: inherit;
   }
 }
