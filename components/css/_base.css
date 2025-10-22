@@ -47,6 +47,7 @@
     --sp-72: 4.5rem; /* 72px */
     --sp-80: 5rem; /* 80px */
     --sp-88: 5.5rem; /* 88px */
+    --sp-128: 8rem; /* 128px */
     --sp-144: 9rem; /* 144px */
   }
 
@@ -111,6 +112,8 @@
 
   p {
     text-wrap: pretty;
+    color: var(--clr-grayish-blue);
+    line-height: var(--lh-1-73);
   }
   h1,
   h2,
@@ -127,6 +130,7 @@
     padding-left: 0px;
   }
   a {
+    display: inline-block;
     text-decoration: none;
     color: inherit;
   }

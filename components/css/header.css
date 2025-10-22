@@ -6,6 +6,9 @@
     grid-template-columns: 1fr auto;
     align-items: center;
 
+    @media (max-width: 48rem) {
+      padding-top: var(--sp-28);
+    }
     & .navbar {
       & .nav-list {
         color: var(--clr-grayish-blue);
