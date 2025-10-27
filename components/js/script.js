@@ -27,3 +27,13 @@ btn.addEventListener("click", () => {
     mobileMenuIcon.setAttribute("aria-label", "Open Menu");
   }
 });
+
+window.addEventListener("resize", () => {
+  if (window.innerWidth > 768) {
+    nav.classList.remove("active");
+    mobileMenuIcon.src = "./assets/images/icon-menu.svg";
+    mobileMenuIcon.alt = "Open Menu Icon";
+    mobileMenuIcon.setAttribute("aria-expanded", "false");
+    mobileMenuIcon.setAttribute("aria-label", "Open Menu");
+  }
+});
